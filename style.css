@@ -1,0 +1,86 @@
+*
+{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.mainDiv
+{
+    background-image: url('Images/interview.jpg');
+    background-size: 100%,100%;
+    background-repeat: no-repeat;
+    height: 100vh;  
+    width:100%;
+}
+.navbar
+{
+    background-color: rgba(0,0,0,0.1);
+    color: #fff;
+}
+.bodyDiv
+{
+    margin-top: 180px;
+    padding-top: 6.5%;
+    width: 75%;
+    height: 50%;
+    margin-left:12%;
+    text-align: center;
+    color:#000;
+    background-color: rgba(128,128,128,0.1);
+}
+.nav-link
+{
+    color: #fff !important;
+    font-size: 20px;
+    font-weight: 500;
+}
+.nav-link:hover
+{
+    color: #FFD700!important;
+    font-size: 20px;
+    font-weight: 500;
+}
+.navbar-brand
+{
+    margin-left: 10%;
+    font-size: 30px !important;
+    color: #fff !important;
+
+}
+.navbar-brand:hover
+{
+    color:#FFD700 !important;
+}
+@media only screen and (max-width: 480px)
+{
+            .mainDiv
+        {
+            background-image: url('Images/interview.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100vh;  
+            width:100%;
+        }
+                .bodyDiv
+        {
+            margin-top: 140px;
+            width: 99%;
+            height: 40%;
+            margin-left:1%;
+            text-align: center;
+            color:#000;
+            background-color: rgba(128,128,128,0.1);
+        }
+                .bodyDiv h3
+        {
+            margin-top: 20px;
+        }
+                .bodyDiv h1
+        {
+            margin-top: 10px;
+        }
+                .bodyDiv h4
+        {
+            text-decoration: underline;
+        }
+}
